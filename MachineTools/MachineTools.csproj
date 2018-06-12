@@ -161,6 +161,34 @@
     <Compile Include="Migrations\201806121202342_add new entries.Designer.cs">
       <DependentUpon>201806121202342_add new entries.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201806121252303_added complex to manufactory.cs" />
+    <Compile Include="Migrations\201806121252303_added complex to manufactory.Designer.cs">
+      <DependentUpon>201806121252303_added complex to manufactory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201806121301016_added category to tools.cs" />
+    <Compile Include="Migrations\201806121301016_added category to tools.Designer.cs">
+      <DependentUpon>201806121301016_added category to tools.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201806121307563_added category to tools as int.cs" />
+    <Compile Include="Migrations\201806121307563_added category to tools as int.Designer.cs">
+      <DependentUpon>201806121307563_added category to tools as int.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201806121310361_added category to tools cat.cs" />
+    <Compile Include="Migrations\201806121310361_added category to tools cat.Designer.cs">
+      <DependentUpon>201806121310361_added category to tools cat.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201806121327060_added category list.cs" />
+    <Compile Include="Migrations\201806121327060_added category list.Designer.cs">
+      <DependentUpon>201806121327060_added category list.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201806121401560_new column.cs" />
+    <Compile Include="Migrations\201806121401560_new column.Designer.cs">
+      <DependentUpon>201806121401560_new column.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201806121411209_Added foreignKey.cs" />
+    <Compile Include="Migrations\201806121411209_Added foreignKey.Designer.cs">
+      <DependentUpon>201806121411209_Added foreignKey.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Category.cs" />
     <Compile Include="Models\Complex.cs" />
@@ -208,6 +236,7 @@
     <Content Include="Views\Category\Index.cshtml" />
     <Content Include="Views\Category\Create.cshtml" />
     <Content Include="Views\Category\Edit.cshtml" />
+    <Content Include="Views\Home\Edit.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -231,6 +260,27 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201806121202342_add new entries.resx">
       <DependentUpon>201806121202342_add new entries.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201806121252303_added complex to manufactory.resx">
+      <DependentUpon>201806121252303_added complex to manufactory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201806121301016_added category to tools.resx">
+      <DependentUpon>201806121301016_added category to tools.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201806121307563_added category to tools as int.resx">
+      <DependentUpon>201806121307563_added category to tools as int.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201806121310361_added category to tools cat.resx">
+      <DependentUpon>201806121310361_added category to tools cat.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201806121327060_added category list.resx">
+      <DependentUpon>201806121327060_added category list.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201806121401560_new column.resx">
+      <DependentUpon>201806121401560_new column.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201806121411209_Added foreignKey.resx">
+      <DependentUpon>201806121411209_Added foreignKey.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
